@@ -74,5 +74,4 @@ def balise_texte (fichier_txt):
 
 #Test du code
 
-chemin="/Users/lucas/Desktop/Nostradamus/Edition numérique Centuries/Prophecies/Mise en page/prophéties_1555_vienne_texte_sans titre.txt"
-balise_texte(chemin)
+chemin="/Users/lucas/Desktop/Nostradamus/Edition numérique Centuries/Prophecies/data/prophéties_1555_vienne_texte_sans titre.txt"
