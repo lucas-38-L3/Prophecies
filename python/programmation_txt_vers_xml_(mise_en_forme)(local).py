@@ -42,6 +42,11 @@ def balise_texte (fichier_txt):
     strophe_texts = f.read().strip().split('\n\n') # Le contenu (str) est lu, trié d'espaces superflus et découpé en strophes qu'il reconnait grâce au double saut de ligne.
 
   racine = ET.Element('text') # Création de la racine du texte pour le passer sur Oxygen
+  #Définition de l'attribut xml:id
+  XML_NS="http://www.w3.org/XML/1998/namespace"
+  xml_id_attr=f"{{XML_NS}}id"
+  #Compteur de mots
+  w_counter=0
 
   lg_counter=0 #Initialisation du conteur de strophes à 0
   for strophe_text in strophe_texts :
@@ -66,6 +71,10 @@ def balise_texte (fichier_txt):
       for mot_text in mots_texts:
         w_element=ET.SubElement(l_element,'w') # Ajout des balises <w>
         w_element.text = mot_text
+        
+        #Attribution de l'xml:id
+        w_counter +=1
+        w_element.set(xml_id_attr, f"w{w_counter}")
 
   #Définition du nom du fichier .xml qui est identique au fichier.txt source
   fichier_xml = fichier_txt.replace('.txt', '.xml')
