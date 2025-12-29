@@ -2,19 +2,36 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="1555V">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Les Propheties</title>
+                <funder>
+                    Lucas Favier
+                </funder>
             </titleStmt>
-            <publicationStmt/>
-            <sourceDesc/>
+            <publicationStmt>
+                <authority>ENSSIB</authority>
+                <authority>Université Jean Moulin Lyon III</authority>
+            </publicationStmt>
+            <notesStmt>
+                <note>Nous utilisons l'exemplaire des Prphéties de la Nationalbibliothek de Vienne en Autriche</note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Autriche</country>
+                        <settlement>Vienne</settlement>
+                        <institution>Nationalbibliothek</institution>
+                        <idno>254154-A / FKB 44-132 (DG/25/B/1)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text xmlns:ns0="XML_NS">
+    <text xml:lang="frm" type="poesie">
         <body>
-
             <p>Centurie première</p>
             <lg n="1">
                 <l n="1">
@@ -93,6 +110,7 @@
                     <w xml:id="w57">s’assied.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">a</fw>
             <lg n="3">
                 <l n="1">
                     <w xml:id="w58">Quand</w>
@@ -232,6 +250,8 @@
                     <w xml:id="w156">fouleront.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Combien</fw>
             <lg n="7">
                 <l n="1">
                     <w xml:id="w157">Tard</w>
@@ -443,6 +463,7 @@
                     <w xml:id="w307">gouvernement.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">a ij</fw>
             <lg n="13">
                 <l n="1">
                     <w xml:id="w308">Les</w>
@@ -617,6 +638,8 @@
                     <w xml:id="w431">aperceu.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Par</fw>
             <lg n="18">
                 <l n="1">
                     <w xml:id="w432">Par</w>
@@ -796,6 +819,7 @@
                     <w xml:id="w560">malefice.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">a iij</fw>
             <lg n="23">
                 <l n="1">
                     <w xml:id="w561">Au</w>
@@ -977,6 +1001,8 @@
                     <w xml:id="w691">ressort.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">La</fw>
             <lg n="28">
                 <l n="1">
                     <w xml:id="w692">La</w>
@@ -1157,6 +1183,8 @@
                     <w xml:id="w821">sceptre</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">a iiij</fw>
+
             <lg n="33">
                 <l n="1">
                     <w xml:id="w822">Prés</w>
@@ -1336,6 +1364,8 @@
                     <w xml:id="w950">lieux.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le</fw>
             <lg n="38">
                 <l n="1">
                     <w xml:id="w951">Le</w>
@@ -1512,6 +1542,8 @@
                     <w xml:id="w1076">pselyn.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">b</fw>
+
             <lg n="43">
                 <l n="1">
                     <w xml:id="w1077">Avant</w>
@@ -1690,6 +1722,8 @@
                     <w xml:id="w1204">vaines.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Vingt</fw>
             <lg n="48">
                 <l n="1">
                     <w xml:id="w1205">Vingt</w>
@@ -1864,6 +1898,8 @@
                     <w xml:id="w1328">septentrionale</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">b ij</fw>
+
             <lg n="53">
                 <l n="1">
                     <w xml:id="w1329">Las</w>
@@ -2214,6 +2250,8 @@
                     <w xml:id="w1578">refaict.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">b iij</fw>
+
             <lg n="63">
                 <l n="1">
                     <w xml:id="w1579">Les</w>
@@ -2393,6 +2431,8 @@
                     <w xml:id="w1707">mammelle.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">O quel</fw>
             <lg n="68">
                 <l n="1">
                     <w xml:id="w1708">O</w>
@@ -2566,6 +2606,8 @@
                     <w xml:id="w1830">milion.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">b iiij</fw>
+
             <lg n="73">
                 <l n="1">
                     <w xml:id="w1831">France</w>
@@ -2743,6 +2785,8 @@
                     <w xml:id="w1957">rocheval.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">D'un</fw>
             <lg n="78">
                 <l n="1">
                     <w xml:id="w1958">D’un</w>
@@ -2915,6 +2959,8 @@
                     <w xml:id="w2079">d’austriche.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">c</fw>
+
             <lg n="83">
                 <l n="1">
                     <w xml:id="w2080">La</w>
@@ -3086,6 +3132,8 @@
                     <w xml:id="w2200">fluve.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le divin</fw>
             <lg n="88">
                 <l n="1">
                     <w xml:id="w2201">Le</w>
@@ -3274,6 +3322,8 @@
                     <w xml:id="w2338">milion.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">c ij</fw>
+
             <lg n="93">
                 <l n="1">
                     <w xml:id="w2339">Terre</w>
@@ -3450,6 +3500,8 @@
                     <w xml:id="w2464">militaire.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le chef</fw>
             <lg n="98">
                 <l n="1">
                     <w xml:id="w2465">Le</w>
@@ -3564,6 +3616,7 @@
                     <w xml:id="w2548">guerre.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">c iij</fw>
 
             <p>Centurie Seconde</p>
             <lg n="1">
@@ -3639,6 +3692,8 @@
                     <w xml:id="w2601">combien.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Pour</fw>
             <lg n="3">
                 <l n="1">
                     <w xml:id="w2602">Pour</w>
@@ -3823,6 +3878,8 @@
                     <w xml:id="w2735">forge.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">c iiij</fw>
+
             <lg n="8">
                 <l n="1">
                     <w xml:id="w2736">Temples</w>
@@ -4007,6 +4064,8 @@
                     <w xml:id="w2869">devant.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le corps</fw>
             <lg n="13">
                 <l n="1">
                     <w xml:id="w2870">Le</w>
@@ -4182,6 +4241,8 @@
                     <w xml:id="w2994">mastinées.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">d</fw>
+
             <lg n="18">
                 <l n="1">
                     <w xml:id="w2995">Nouvelle</w>
@@ -4347,6 +4408,8 @@
                     <w xml:id="w3109">subrogée.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Palais,</fw>
             <lg n="23">
                 <l n="1">
                     <w xml:id="w3110">Palais,</w>
@@ -4524,6 +4587,8 @@
                     <w xml:id="w3236">devant.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">d ij</fw>
+
             <lg n="28">
                 <l n="1">
                     <w xml:id="w3237">Le</w>
@@ -4702,6 +4767,8 @@
                     <w xml:id="w3364">ravenne.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Par le</fw>
             <lg n="33">
                 <l n="1">
                     <w xml:id="w3365">Par</w>
@@ -4885,6 +4952,8 @@
                     <w xml:id="w3497">profligés.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">d iij</fw>
+
             <lg n="38">
                 <l n="1">
                     <w xml:id="w3498">Des</w>
@@ -5065,6 +5134,8 @@
                     <w xml:id="w3627">mort.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Durant</fw>
             <lg n="43">
                 <l n="1">
                     <w xml:id="w3628">Durant</w>
@@ -5245,6 +5316,8 @@
                     <w xml:id="w3757">allegués.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">d iiij</fw>
+
             <lg n="48">
                 <l n="1">
                     <w xml:id="w3758">La</w>
@@ -5427,6 +5500,8 @@
                     <w xml:id="w3889">luite.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le gran</fw>
             <lg n="53">
                 <l n="1">
                     <w xml:id="w3890">La</w>
@@ -5612,6 +5687,8 @@
                     <w xml:id="w4024">tainte.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">e</fw>
+
             <lg n="58">
                 <l n="1">
                     <w xml:id="w4025">Sans</w>
@@ -5803,6 +5880,8 @@
                     <w xml:id="w4165">comete.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Gaul</fw>
             <lg n="63">
                 <l n="1">
                     <w xml:id="w4166">Gaulois,</w>
@@ -5981,6 +6060,8 @@
                     <w xml:id="w4293">forts.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">e ij</fw>
+
             <lg n="68">
                 <l n="1">
                     <w xml:id="w4294">De</w>
@@ -6157,6 +6238,8 @@
                     <w xml:id="w4419">incerte.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Au</fw>
             <lg n="73">
                 <l n="1">
                     <w xml:id="w4420">Au</w>
@@ -6337,6 +6420,8 @@
                     <w xml:id="w4549">fuis.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">e iij</fw>
+
             <lg n="78">
                 <l n="1">
                     <w xml:id="w4550">Le</w>
@@ -6519,6 +6604,8 @@
                     <w xml:id="w4681">presse.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le</fw>
             <lg n="83">
                 <l n="1">
                     <w xml:id="w4682">Le</w>
@@ -6692,6 +6779,8 @@
                     <w xml:id="w4804">n’adoré.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">e iiij</fw>
+
             <lg n="88">
                 <l n="1">
                     <w xml:id="w4805">Le</w>
@@ -6874,6 +6963,8 @@
                     <w xml:id="w4936">l’orguilleux.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Bien</fw>
             <lg n="93">
                 <l n="1">
                     <w xml:id="w4937">Bien</w>
@@ -7049,6 +7140,8 @@
                     <w xml:id="w5061">rose.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">f</fw>
+
             <lg n="98">
                 <l n="1">
                     <w xml:id="w5062">Celuy</w>
@@ -7227,6 +7320,8 @@
                     <w xml:id="w5188">celique.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">f ij</fw>
+
             <lg n="3">
                 <l n="1">
                     <w xml:id="w5189">Mars</w>
@@ -7587,6 +7682,8 @@
                     <w xml:id="w5448">butin.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">f iij</fw>
+
             <lg n="13">
                 <l n="1">
                     <w xml:id="w5449">Par</w>
@@ -7950,6 +8047,8 @@
                     <w xml:id="w5711">traille.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">f iiij</fw>
+
             <lg n="23">
                 <l n="1">
                     <w xml:id="w5712">Si</w>
@@ -8117,6 +8216,8 @@
                     <w xml:id="w5828">translater.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">De</fw>
             <lg n="28">
                 <l n="1">
                     <w xml:id="w5829">De</w>
@@ -8296,6 +8397,8 @@
                     <w xml:id="w5957">mantuane.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">a 2</fw>
+
             <lg n="33">
                 <l n="1">
                     <w xml:id="w5958">En</w>
@@ -8470,6 +8573,8 @@
                     <w xml:id="w6081">receuz.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">La gent</fw>
             <lg n="38">
                 <l n="1">
                     <w xml:id="w6082">La</w>
@@ -8652,6 +8757,8 @@
                     <w xml:id="w6213">failliront.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">g ij</fw>
+
             <lg n="43">
                 <l n="1">
                     <w xml:id="w6214">Gents</w>
@@ -8835,6 +8942,8 @@
                     <w xml:id="w6346">terre.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Sept</fw>
             <lg n="48">
                 <l n="1">
                     <w xml:id="w6347">Sept</w>
@@ -9013,6 +9122,8 @@
                     <w xml:id="w6474">extremité.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">g iij</fw>
+
             <lg n="53">
                 <l n="1">
                     <w xml:id="w6475">Quand</w>
@@ -9195,6 +9306,8 @@
                     <w xml:id="w6606">bastarnan.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Aupres</fw>
             <lg n="58">
                 <l n="1">
                     <w xml:id="w6607">Aupres</w>
@@ -9372,6 +9485,8 @@
                     <w xml:id="w6733">menées</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">g iiij</fw>
+
             <lg n="63">
                 <l n="1">
                     <w xml:id="w6734">Romain</w>
@@ -9550,6 +9665,8 @@
                     <w xml:id="w6861">presses.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Peuple</fw>
             <lg n="68">
                 <l n="1">
                     <w xml:id="w6862">Peuple</w>
@@ -9731,6 +9848,8 @@
                     <w xml:id="w6992">rançon.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">h</fw>
+
             <lg n="73">
                 <l n="1">
                     <w xml:id="w6993">Quand</w>
@@ -9912,6 +10031,8 @@
                     <w xml:id="w7123">opprobre.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Le</fw>
             <lg n="78">
                 <l n="1">
                     <w xml:id="w7124">Le</w>
@@ -10087,6 +10208,8 @@
                     <w xml:id="w7248">guerre.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">h ij</fw>
+
             <lg n="83">
                 <l n="1">
                     <w xml:id="w7249">Les</w>
@@ -10257,6 +10380,8 @@
                     <w xml:id="w7368">croyras.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">De</fw>
             <lg n="88">
                 <l n="1">
                     <w xml:id="w7369">De</w>
@@ -10431,6 +10556,8 @@
                     <w xml:id="w7492">autour.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">h iij</fw>
+
             <lg n="93">
                 <l n="1">
                     <w xml:id="w7493">Dans</w>
@@ -10602,6 +10729,8 @@
                     <w xml:id="w7613">determine.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Deux</fw>
             <lg n="98">
                 <l n="1">
                     <w xml:id="w7614">Deus</w>
@@ -10707,6 +10836,8 @@
                     <w xml:id="w7688">l’envieux.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">h iiij</fw>
+
             <p>Centurie quarte</p>
             <lg n="1">
                 <l n="1">
@@ -10779,6 +10910,8 @@
                     <w xml:id="w7739">emmenées.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">De</fw>
             <lg n="3">
                 <l n="1">
                     <w xml:id="w7740">D’arras</w>
@@ -10965,6 +11098,8 @@
                     <w xml:id="w7875">lache.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">i</fw>
+
             <lg n="8">
                 <l n="1">
                     <w xml:id="w7876">La</w>
@@ -11145,6 +11280,8 @@
                     <w xml:id="w8005">chassé.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">De plus</fw>
             <lg n="13">
                 <l n="1">
                     <w xml:id="w8006">De</w>
@@ -11325,6 +11462,8 @@
                     <w xml:id="w8135">serrée.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">i ij</fw>
+
             <lg n="18">
                 <l n="1">
                     <w xml:id="w8136">Des</w>
@@ -11681,6 +11820,8 @@
                     <w xml:id="w8391">d’artemide.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">i iij</fw>
+
             <lg n="28">
                 <l n="1">
                     <w xml:id="w8392">Lors</w>
@@ -11873,6 +12014,8 @@
                     <w xml:id="w8533">arriere.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Juppiter</fw>
             <lg n="33">
                 <l n="1">
                     <w xml:id="w8534">Juppiter</w>
@@ -12053,6 +12196,8 @@
                     <w xml:id="w8663">rubre.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">i iiij</fw>
+
             <lg n="38">
                 <l n="1">
                     <w xml:id="w8664">Pendant</w>
@@ -12224,6 +12369,8 @@
                     <w xml:id="w8784">marc.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Seront</fw>
             <lg n="43">
                 <l n="1">
                     <w xml:id="w8785">Seront</w>
@@ -12408,6 +12555,8 @@
                     <w xml:id="w8918">pendus.</w>
                 </l>
             </lg>
+            <fw place="bot-center" type="sig">k j</fw>
+
             <lg n="48">
                 <l n="1">
                     <w xml:id="w8919">Plannure</w>
@@ -12584,6 +12733,8 @@
                     <w xml:id="w9044">cendre.</w>
                 </l>
             </lg>
+
+            <fw place="bot-right" type="catch">Les</fw>
             <lg n="53">
                 <l n="1">
                     <w xml:id="w9045">Les</w>
@@ -12622,6 +12773,12 @@
                     <w xml:id="w9072">puis.</w>
                 </l>
             </lg>
+
+            <p ana="fin">FIN</p>
+            <lb/>
+            <p ana="fin">Ce present livre a esté achevé d'imprimer</p>
+            <p ana="fin">le IIII. jour de Mai M.D.LV.</p>
+            <fw place="bot-center" type="sig">k ij</fw>
         </body>
     </text>
 </TEI>

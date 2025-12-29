@@ -10,3 +10,13 @@ h1{
     font-variant: small-caps;
     font-size:small;
 }
+div{
+    .fw-bot-center{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    .fw-bot-right{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: right;
+    }
+}
