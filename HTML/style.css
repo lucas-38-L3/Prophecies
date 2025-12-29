@@ -1,0 +1,12 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:small;
+}
+h1{
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.ptescap {
+    font-variant: small-caps;
+    font-size:small;
+}
