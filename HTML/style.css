@@ -1,22 +1,22 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size:small;
+    margin-left: 250px;
+    
 }
 h1{
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
     font-size: large;
+    margin-left: 50px;
 }
 .ptescap {
     font-variant: small-caps;
     font-size:small;
 }
-div{
-    .fw-bot-center{
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-    }
-    .fw-bot-right{
-        font-family: 'Courier New', Courier, monospace;
-        text-align: right;
-    }
+.fw-bot-center {
+    margin-left: 200px;
+}
+.fw-bot-right {
+    margin-left: 200px;
+
 }

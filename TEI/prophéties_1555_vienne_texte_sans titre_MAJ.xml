@@ -35,7 +35,7 @@
             <p>Centurie première</p>
             <lg n="1">
                 <l n="1">
-                    <w xml:id="w1">Estant</w>
+                    <graphic url="img/1555V_1_1.jpg"/><w xml:id="w1">stant</w>
                     <w xml:id="w2">assis</w>
                     <w xml:id="w3">de</w>
                     <w xml:id="w4">nuit</w>
@@ -3621,7 +3621,7 @@
             <p>Centurie Seconde</p>
             <lg n="1">
                 <l n="1">
-                    <w xml:id="w2549">Vers</w>
+                    <graphic url="img/1555V_2_1.jpg"/><w xml:id="w2549">ers</w>
                     <w xml:id="w2550">aquitaine</w>
                     <w xml:id="w2551">par</w>
                     <w xml:id="w2552">insults</w>
@@ -7248,7 +7248,7 @@
             <p>Centurie tierce</p>
             <lg n="1">
                 <l n="1">
-                    <w xml:id="w5135">Apres</w>
+                    <graphic url="img/1555V_3_1.jpg"/><w xml:id="w5135">pres</w>
                     <w xml:id="w5136">combat</w>
                     <w xml:id="w5137">et</w>
                     <w xml:id="w5138">bataille</w>
@@ -10841,7 +10841,7 @@
             <p>Centurie quarte</p>
             <lg n="1">
                 <l n="1">
-                    <w xml:id="w7689">Cela</w>
+                    <graphic url="img/1555V_4_1.jpg"/><w xml:id="w7689">ela</w>
                     <w xml:id="w7690">du</w>
                     <w xml:id="w7691">reste</w>
                     <w xml:id="w7692">de</w>

@@ -49,7 +49,8 @@
     
 <!-- Retrait des métadonnées -->    
 <xsl:template match="tei:teiHeader"/>
-  
+
+ 
     <!--Rendre les strophes-->
     <xsl:template match="tei:lg">
         <xsl:element name="p">
@@ -81,7 +82,6 @@
     </xsl:template>
     
 
-
     <!-- MOTS (w) avec détection small-caps -->
     <xsl:template match="tei:w">
         <xsl:choose>
@@ -101,6 +101,7 @@
         </xsl:choose>
     </xsl:template>
 
+
 <!-- Signatures et réclames -->
     <xsl:template match="tei:fw">
         <xsl:element name="div">
@@ -112,7 +113,22 @@
             <xsl:value-of select="."/>
         </xsl:element>
         </xsl:element>
-    </xsl:template>   
+    </xsl:template>
+    
+    <!-- Lettres ornées -->
+    <xsl:template match="tei:graphic">
+        <xsl:element name="img">
+            <xsl:attribute name="src">
+                <xsl:value-of select="./@url"/>
+            </xsl:attribute>
+            <xsl:attribute name="width">
+                <xsl:text>40px</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="height">
+                <xsl:text>40px</xsl:text>
+            </xsl:attribute>
+        </xsl:element>
+    </xsl:template>
 </xsl:stylesheet> 
     
     
