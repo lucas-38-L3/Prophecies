@@ -9,6 +9,11 @@ h1{
     font-size: large;
     margin-left: 50px;
 }
+h2{
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-left: 50px;
+}
 .ptescap {
     font-variant: small-caps;
     font-size:small;
